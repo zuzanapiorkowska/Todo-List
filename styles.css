@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(140, 184, 169);
+    color:rgb(80, 129, 113);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    color:rgb(218, 246, 237);
+    font-size: 8rem;
+    font-weight: normal;
+    text-align: center;
+    opacity: 0.7;
+    margin: 0;
+    margin-bottom: 2rem;
+    display: inline-block;
+}
+
+form{
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.3);
+    max-width: 100%;
+    width: 400px;
+}
+
+.input {
+border: none;
+color: rgb(15, 78, 57);
+font-size: 1.5rem;
+width: 100%;
+padding: 1rem 2rem;
+display: block;
+}
+
+.input::placeholder {
+    color: rgb(214, 214, 214);
+}
+
+.input:focus {
+    outline-color: rgb(81, 116, 105);
+}
+
+.todos {
+background-color: rgb(81, 116, 105);
+margin: 5px 0;
+padding: 0;
+list-style-type: none;
+font-weight: bold;
+color: rgb(224, 246, 240);
+}
+
+.todos li {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-top: 2px solid white;
+}
+
+.todos .noneborder {
+    border-top: 0px solid white;
+}
+
+.todos li.completed {
+    color:rgb(114, 167, 149);
+    text-decoration: line-through;
+}
+
+small {
+    color: rgb(218, 246, 237);
+    text-align: center;
+    margin-top: 1rem; 
+}
+
+img {
+    display: inline-block;
+    width: 100px;
+}
